@@ -44,11 +44,6 @@ INSTALLED_APPS = [
     'django_htmx',
     'storages',
     # internal
-    'articles',
-    'inventory',
-    'meals',
-    'recipes',
-    'search',
 ]
 
 MIDDLEWARE = [
