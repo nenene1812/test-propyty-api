@@ -3,7 +3,7 @@ from django.conf import settings
 from django.contrib.auth.password_validation import validate_password
 from django.test import TestCase
 
-class TryDjangoConfigTest(TestCase):
+class coreConfigTest(TestCase):
     # https://docs.python.org/3/library/unittest.html
     def test_secret_key_strength(self):
         # settings.SECRET_KEY
